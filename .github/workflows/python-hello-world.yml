@@ -1,13 +1,12 @@
 name: test python hello world
 on: 
     push:
-        branches:
-            - python-hello-world
+        branches: python-hello-world
 jobs: 
     python-hello-world:
         runs-on: ubuntu-latest
         steps: 
             - name: Checkout repository
               uses: actions/checkout@v2
-            - name: python hello world
-              run: python 
+            - name: run python script
+              run: python hello.py
