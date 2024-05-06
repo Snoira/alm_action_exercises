@@ -2,7 +2,7 @@ name: test python hello world
 on: 
     push:
         branches:
-            - main
+            - python-hello-world
 jobs: 
     python-hello-world:
         runs-on: ubuntu-latest
@@ -10,4 +10,4 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v2
             - name: python hello world
-              run: python hello.py
+              run: python 
