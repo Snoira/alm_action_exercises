@@ -9,6 +9,5 @@ jobs:
         steps: 
             - name: Checkout repository
               uses: actions/checkout@v2
-
-            - name: Hello World!
+            - name: python hello world
               run: python hello.py
