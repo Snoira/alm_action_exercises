@@ -10,5 +10,5 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v2
 
-            - name: python hello world
+            - name: Hello World!
               run: python hello.py
